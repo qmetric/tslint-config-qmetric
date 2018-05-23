@@ -1,0 +1,14 @@
+{
+  "name": "tslint-config-qmetric",
+  "version": "1.0.0",
+  "description": "tslint rules for QMetric projects",
+  "main": "tslint.js",
+  "repository": "https://github.com/qmetric/tslint-config-qmetric",
+  "author": "QMetric Group",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.8.3"
+  }
+}
