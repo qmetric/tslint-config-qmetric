@@ -25,7 +25,7 @@ module.exports = {
     // no-extra-parens: N/A
     'whitespace': ALL_WHITESPACE_CHECKS,
     'triple-equals': true,
-    'no-use-before-declare': true,
+    'no-use-before-declare': false,
     // strict: N/A
     // space-infix-ops: N/A
     'no-unused-variable': true,
