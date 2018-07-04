@@ -42,7 +42,7 @@ module.exports = {
     // no-param-reassign: N/A
     // key-spacing: N/A
     'quotemark': ['single', 'avoid-template', 'avoid-escape'],
-    'ter-indent': [true, {"SwitchCase": 1}],
+    'ter-indent': [true, 2, {"SwitchCase": 1}],
     'no-console': true,
 
     // Rules we do not want to enforce
