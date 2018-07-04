@@ -2,7 +2,7 @@ const ALL_WHITESPACE_CHECKS = [true,
   'check-branch',
   'check-decl',
   'check-operator',
-  'check-module',
+  //'check-module', does the opposite of what we want. proper rule here: https://github.com/palantir/tslint/issues/1044
   'check-separator',
   'check-rest-spread',
   'check-type',
