@@ -2,7 +2,7 @@ const ALL_WHITESPACE_CHECKS = [true,
   'check-branch',
   'check-decl',
   'check-operator',
-  // 'check-module',
+  'check-module',
   'check-separator',
   'check-rest-spread',
   'check-type',
@@ -99,7 +99,6 @@ module.exports = {
     // react/require-default-props: N/A
     'react-a11y-anchors': false,
     'react-a11y-image-button-has-alt': false,
-    'react-a11y-img-has-alt': false,
     'object-shorthand-properties-first': false
   }
 };
