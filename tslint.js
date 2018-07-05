@@ -44,6 +44,25 @@ module.exports = {
     "quotemark": ["single", "avoid-template", "avoid-escape"],
     "ter-indent": [true, 2, {"SwitchCase": 1}],
     "no-console": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "import-spacing": true,
+    "no-irregular-whitespace": true,
 
     // Rules we do not want to enforce
     "jsx-key": false,
