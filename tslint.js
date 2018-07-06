@@ -18,7 +18,8 @@ module.exports = {
     "tslint-eslint-rules"
   ],
   "rules": {
-    // Differences from preset
+    // Rules we do want to enforce
+    // -------------------------------------------------------
     "curly": true,
     "trailing-comma": [false, {"esSpecCompliant": true}],
     "no-constant-condition": true,
@@ -63,8 +64,11 @@ module.exports = {
     ],
     "import-spacing": true,
     "no-irregular-whitespace": true,
+    "interface-name": [true, "never-prefix"],
+    "semicolon": false,
 
     // Rules we do not want to enforce
+    // -------------------------------------------------------
     "jsx-key": false,
     "object-curly-spacing": false,
     // no-plusplus: N/A
@@ -84,7 +88,9 @@ module.exports = {
     "object-literal-key-quotes": [true, "as-needed"],
     "variable-name": false,
 
+
     // Pending rules
+    // -------------------------------------------------------
     // no-nested-ternary: N/A
     // no-confusing-arrow: N/A
     "array-bracket-spacing": false,
