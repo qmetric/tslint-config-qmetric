@@ -42,7 +42,7 @@ module.exports = {
     // react/default-props-match-prop-types: N/A
     // no-param-reassign: N/A
     // key-spacing: N/A
-    "quotemark": ["single", "avoid-template", "avoid-escape"],
+    "quotemark": [true, "single", "avoid-template", "avoid-escape"],
     "ter-indent": [true, 2, {"SwitchCase": 1}],
     "no-console": true,
     "typedef-whitespace": [
