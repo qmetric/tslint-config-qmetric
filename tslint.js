@@ -65,7 +65,7 @@ module.exports = {
     "import-spacing": true,
     "no-irregular-whitespace": true,
     "interface-name": [true, "never-prefix"],
-    "semicolon": false,
+    "semicolon": [true, "always"],
 
     // Rules we do not want to enforce
     // -------------------------------------------------------
