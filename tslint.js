@@ -29,7 +29,6 @@ module.exports = {
     "no-use-before-declare": false,
     // strict: N/A
     // space-infix-ops: N/A
-    "no-unused-variable": true,
     // func-style: N/A
     "ter-arrow-parens": [true, "as-needed"],
     // no-mixed-operators: N/A
